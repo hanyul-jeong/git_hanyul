@@ -1,81 +1,82 @@
-<div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=120&text=✨%20Hanyul%20%20✨&animation=fadeIn&fontColor=ffffff&fontSize=60&fontAlign=center&textAlign=center" />
-</div>
+# Hanyul's Portfolio
+
+![Profile Banner](https://via.placeholder.com/1200x300.png?text=Welcome+to+Hanyul%27s+Portfolio)
+
+안녕하세요! 저는 **Hanyul**입니다.  
+소프트웨어 개발자이자 창의적인 문제 해결을 사랑하는 사람입니다.  
+세련되고, 효율적인 코드를 작성하는 것을 목표로 하고 있으며,  
+항상 최상의 결과물을 만들어내기 위해 노력하고 있습니다.
 
 ---
 
-## 🖋️ About Me
+## 🛠️ Tech Stack
 
-Welcome to my little corner of the internet! I'm **Hanyul**, a passionate developer, aspiring data scientist, and tech enthusiast. I enjoy solving problems through technology, especially using Python and machine learning. Let's build something amazing together!
+**Languages & Frameworks**  
+- **Python**, **JavaScript**, **TypeScript**, **Go**, **Ruby**  
+- **React**, **Node.js**, **Django**, **Flask**
 
----
-
-## 🛠️ Tech Stacks
-
-Here are the technologies I'm currently working with:
-
-<div style="text-align: center;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=for-the-badge&logo=Tensorflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white" />
-    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white" />
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white" />
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white" />
-    <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white" />
-</div>
+**Tools & Databases**  
+- **Git**, **Docker**, **Kubernetes**  
+- **PostgreSQL**, **MySQL**, **MongoDB**
 
 ---
 
-## 🧑‍💻 Contact Me
+## 💼 Projects
 
-Feel free to reach out if you'd like to collaborate or just have a chat!
+### [Project 1 - Project Name](https://github.com/yourusername/project1)
+- **Description**: 이 프로젝트는 [간단한 설명을 추가].  
+- **Tech Stack**: Python, Django, PostgreSQL  
+- **Highlights**: 프로젝트의 주요 기능이나 성과를 강조하는 한두 문장.
 
-- 📬 **Email**: [hanyul@example.com](mailto:hanyul@example.com)
-- 🌐 **Blog**: [My Blog](https://velog.io/@hanyul)
-- 💼 **LinkedIn**: [Hanyul's LinkedIn](https://www.linkedin.com/in/hanyul/)
-
----
-
-## 🏅 GitHub Stats
-
-Here's a snapshot of my work and contributions:
-
-<div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hanyul-jeong&layout=compact&langs_count=6&hide=javascript,css,scss" alt="Top Languages" />
-    <img src="https://github-readme-stats.vercel.app/api?username=hanyul-jeong&show_icons=true&count_private=true&hide=prs&theme=radical" alt="GitHub Stats" />
-</div>
+### [Project 2 - Another Project](https://github.com/yourusername/project2)
+- **Description**: 이 프로젝트는 [간단한 설명을 추가].  
+- **Tech Stack**: React, Node.js  
+- **Highlights**: 주요 기능이나 성과.
 
 ---
 
-## 🚀 Projects
+## 🌟 Achievements
 
-Here are a few of my recent projects:
-
-### [Project One](https://github.com/hanyul-jeong/project1)
-A machine learning model for predicting stock prices using TensorFlow and Python.
-
-### [Project Two](https://github.com/hanyul-jeong/project2)
-A Django-based web application for managing tasks with user authentication.
-
-### [Project Three](https://github.com/hanyul-jeong/project3)
-An interactive data visualization dashboard built with Python and Plotly.
+- **Top 10% Contributor** in [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+- [**Google Summer of Code**](https://summerofcode.withgoogle.com/) Finalist  
+- Published a paper on [Artificial Intelligence](https://your-paper-link.com)
 
 ---
 
-## 🧑‍🔬 Certifications
+## 📞 Contact Me
 
-- **TensorFlow Developer Certificate** - [Link](https://www.coursera.org/certificates/tensorflow-developer)
-- **Data Science Professional Certificate** - [Link](https://www.coursera.org/certificates/data-science)
-
----
-
-## 🛸 Fun Fact
-
-When I'm not coding, you can find me reading about space exploration or experimenting with new music production software!
+- **Email**: [hanyul@example.com](mailto:hanyul@example.com)  
+- **LinkedIn**: [linkedin.com/in/hanyul](https://linkedin.com/in/hanyul)  
+- **Twitter**: [@hanyuldev](https://twitter.com/hanyuldev)  
 
 ---
 
-<div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=120&text=Thanks%20for%20visiting!&fontColor=ffffff&fontSize=40&animation=fadeIn&fontAlign=center&textAlign=center" />
-</div>
+## ✨ About Me
+
+저는 항상 기술의 경계를 넘어서 새로운 것들을 배우고, 도전하는 것을 즐깁니다.  
+개발을 넘어 창의적인 아이디어를 현실로 만드는 과정을 사랑하며,  
+언제나 더 나은 방법을 찾기 위해 노력하고 있습니다.
+
+---
+
+## 📝 Blog & Articles
+
+- [Why I Love Open Source](https://yourblog.com/why-i-love-open-source)
+- [My Journey with React](https://yourblog.com/my-journey-with-react)
+- [The Future of AI and ML](https://yourblog.com/the-future-of-ai-and-ml)
+
+---
+
+## 🔗 Additional Links
+
+- **GitHub**: [github.com/hanyul](https://github.com/hanyul)
+- **Personal Website**: [hanyul.dev](https://hanyul.dev)
+- **Dribbble (Portfolio)**: [dribbble.com/hanyul](https://dribbble.com/hanyul)
+
+---
+
+> "The only way to do great work is to love what you do."  
+> – Steve Jobs
+
+---
+
