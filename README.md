@@ -1,47 +1,84 @@
-<div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=120&text=✨%20Hanyul%27s%20Code%20Farm%20✨&animation=fadeIn&fontColor=ffffff&fontSize=60&fontAlign=center&textAlign=center" />
-</div>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanyul</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            color: #2e2e2e;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-<div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">  </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;">  </div> 
-</div>
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
 
-<div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
-    <div style="margin: ; text-align: left;"> 
-        <img src="https://img.shields.io/badge/Tensorflow-FF6F00?style=for-the-badge&logo=Tensorflow&logoColor=white">
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
-        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white">
-        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white">
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
-        <br/>
-        <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white">
-        <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white">
-        <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
-        <br/>
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white">
+        .title {
+            font-size: 72px;
+            font-weight: 700;
+            color: #6a1b9a;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            color: #555;
+            font-weight: 400;
+            margin-bottom: 30px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #6a1b9a;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #8e24aa;
+            transform: translateY(-3px);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">Hanyul</div>
+        <div class="subtitle">Welcome to My World</div>
+        <a href="#" class="button">Explore More</a>
     </div>
-</div>
 
-<div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
-    <div style="text-align: left;"> 
-        <a href="https://velog.io/@hktysh/posts">
-            <img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white&link=https://velog.io/@hktysh/posts"> 
-        </a>
-        <a href="mailto:hktysh@nextrunners.co.kr">
-            <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:hktysh@nextrunners.co.kr"> 
-        </a>
-    </div>  
-</div>
-
-<div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #; color: #282d33;"> 🏅 Stats </h2> 
-    <div style="text-align: left;"> 
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hanyul-jeong&layout=compact&hide=javascript,css,scss&langs_count=8"/>
-        <img src="https://github-readme-stats.vercel.app/api?username=hanyul-jeong&show_icons=true"/>
-    </div> 
-</div>
+</body>
+</html>
