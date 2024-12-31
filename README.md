@@ -1,6 +1,6 @@
 # Hanyul's Portfolio
 
-![Profile Banner](https://via.placeholder.com/1200x300.png?text=Welcome+to+Hanyul%27s+Portfolio)
+![Welcome Animation](https://media.giphy.com/media/l0MYB5F1zKM95KwDi/giphy.gif)
 
 안녕하세요! 저는 **Hanyul**입니다.  
 소프트웨어 개발자이자 창의적인 문제 해결을 사랑하는 사람입니다.  
