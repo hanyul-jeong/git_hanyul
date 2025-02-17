@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>몬스터 잡기 게임</title>
+</head>
+<body>
+    <div id="container"></div>
+    <p id="monsterHP">MONSTER HP : 100</p>
+    <p id="userHP">USER HP : 100</p>
+    <p id="userMP">USER MP : 100</p>
+    <button id="attack">평타</button>
+    <button id="skill">스킬</button>
+    <script>
+        let monsterHP = 100;
+        let userHP = 100;
+        let userMP = 100;
+        const container = document.getElementById("container");
+        const monsterHPs = document.getElementById("monsterHP");
+        const userHPs = document.getElementById("userHP");
+        const userMPs = document.getElementById("userMP");
+
+        const h1 = document.createElement("h1");
+        h1.textContent = "몬스터 잡기 게임을 시작합니다.";
+        container.append(h1);
+
+        const attack = document.getElementById("attack");
+        const skill = document.getElementById("skill");
+        
+        // 평타
+        attack.addEventListener("click", function() {
+            monsterHP -= 2;
+            if(userMP <= 100 && userMP >= 96) {
+                userMP == 100;
+            } else if (userMP <= 95) {
+                userMP += 5;
+            }
+            getStats(monsterHPs, userHPs, userMPs)
+        });
+
+        // 스킬
+        skill.addEventListener("click", function() {
+            if (userMP >= 10) {
+                monsterHP -= 7;
+                userMP -= 10;
+                getStats(monsterHPs, userHPs, userMPs)
+                
+            } else {
+                alert("마나가 부족합니다!");
+            }
+        });
+
+        function getStats(Mhp, Uhp, Ump) {
+            userHP -= 5;
+            if (monsterHP <= 0) {
+                monsterHPs.textContent = "축하합니다. 몬스터를 처치했습니다.";
+                userHPs.textContent = "";
+                userMPs.textContent = "";
+            } else if (userHP <= 0) {
+                monsterHPs.textContent = "몬스터에게 공격을 받아 사망했습니다.";
+                userHPs.textContent = "";
+                userMPs.textContent = "";
+            } else {
+                monsterHPs.textContent = "MONSTER HP : " + monsterHP;
+                userHPs.textContent = "USER HP : " + userHP;
+                userMPs.textContent = "USER MP : " + userMP;
+            }
+        }
+
+    </script>
+</body>
+</html>
